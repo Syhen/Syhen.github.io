@@ -16,6 +16,12 @@
     font-size: 12px;
     text-transform: uppercase;
   }
+  .page-reader {
+    color: $dark-gray;
+    font-weight: 300;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
 }
 
 .page-cover-image {
@@ -51,7 +57,7 @@
   justify-content: space-between;
   flex-wrap: wrap;
   padding-bottom: 30px;
-  margin: 30px 0  ;
+  margin: 30px 0;
   border-bottom: 1px solid $dark-gray;
   .page-share {
     margin-bottom: 10px;

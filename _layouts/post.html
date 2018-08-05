@@ -17,7 +17,12 @@ layout: main
     <div class="wrap-content">
       <header class="header-page">
         <h1 class="page-title">{{page.title}}</h1>
-        <div class="page-date"><span>{{page.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+        <div class="page-date"><span>{{page.date | date: '%Y-%m-%d'}}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+        <div class="page-reader">
+            <span id="busuanzi_container_site_uv">
+                <span id="busuanzi_value_site_u"></span>人阅读
+            </span>
+        </div>
       </header>
       {{content | markdownify}}
       <div class="page-footer">
